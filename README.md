@@ -6,6 +6,14 @@ Independent, upper-bound analysis of settlement authenticity in the x402 agent-p
 
 **We do not name addresses and we do not assert intent.** Cohort membership is an upper bound on coordination, not an estimate of fraud. See `REPORT.md` §5 for the three mechanisms public data cannot distinguish.
 
+## Registry gap ledger (2026-09-29)
+
+A follow-on ledger with a mechanical, re-runnable finding: **all 357 x402 hosts that disclose
+a settlement payee (of 617 payable hosts probed) settle outside the public 105-contract
+facilitator registry** that the primary public settlement dataset is built on. Type A probe
+(method, per-host CSV, re-runnable script) + Type B entries: see
+[registry_gap/README.md](registry_gap/README.md).
+
 ## Repository layout
 
 | Path | What it is |
